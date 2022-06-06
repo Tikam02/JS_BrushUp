@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "3ebeb6a17653a22e",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdf429acd3566e22",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Apollo+Next.js.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0f2a4081feb5fbb9",
+    "type": "split",
+    "children": [
+      {
+        "id": "f71eef1daf55001b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "141a9d3db0ea81fa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "cd436633f5b6b947",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "721565a10013c8fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "b3039ea61f1e8075",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4577eecb8facf1e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Apollo+Next.js.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "cdf429acd3566e22",
+  "lastOpenFiles": [
+    "Apollo+Next.js.md",
+    "Asynchronicty.md",
+    "async-await.md",
+    "Arrays.md",
+    "Hooks.md",
+    "Google Analytics.md",
+    "Web Meta Tags.md",
+    "Next.js.md",
+    "Objects.md",
+    "What does it do?.md"
+  ]
+}
