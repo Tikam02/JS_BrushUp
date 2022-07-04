@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Apollo+Next.js.md",
+            "file": "Testing Frontend.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apollo+Next.js.md",
+                "file": "Testing Frontend.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "cdf429acd3566e22",
   "lastOpenFiles": [
-    "Apollo+Next.js.md",
-    "Asynchronicty.md",
-    "async-await.md",
-    "Arrays.md",
-    "Hooks.md",
-    "Google Analytics.md",
-    "Web Meta Tags.md",
-    "Next.js.md",
-    "Objects.md",
-    "What does it do?.md"
+    "Testing Frontend.md",
+    "routings.md",
+    "string manipulation.md",
+    "Chapter 06 - React States.md",
+    "Chapter - 04 How React Works.md",
+    "Chapter - 03 Functional Programming.md",
+    "Chapter - 02 JS for React.md",
+    "Basics-02.md",
+    "Basic Syntax.md",
+    "Asynchronicty.md"
   ]
 }

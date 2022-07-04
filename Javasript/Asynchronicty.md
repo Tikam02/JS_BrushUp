@@ -102,6 +102,14 @@ A promise may have one of three states.
 
 A promise starts in a pending state. That means the process is not complete. If the operation is successful, the process ends in a fulfilled state. And, if an error occurs, the process ends in a rejected state.
 
+- A promise is a placeholder for a value that can either resolve or request at some time in the future.
+- We create a promise, using a Promise constructor that recieves a callback
+- A promise is an object that containes a status  ( Promise Status) and a Value (PromiseValue)
+
+.then() gets called after a Promise is resolved
+.catch() gets called after a Promise is rejected
+.finally() Always gets called whether the promise resolved or rejected.
+
 **Create A Promise
 
 To create a promise object, we use the `Promise()` constructor.
@@ -128,9 +136,6 @@ let promise2 = new Promise((resolve, reject) => {
 	reject("Rejected the promise");
 });
 ```
-
-
-
 
 
 ```js
@@ -325,7 +330,7 @@ api(function(result){
 -----------------------------------------------------------------------
 
 
-**chaining
+**Chaining
 
 
 ```js
@@ -531,3 +536,5 @@ https://eloquentjavascript.net/11_async.html
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
 https://www.programiz.com/javascript/callback
 https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke
+
+
