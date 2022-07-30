@@ -1,12 +1,9 @@
 
 
 
-https://ogp.me/
-https://devhints.io/html-meta
-https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
 
-
+## META Tags for SEO 
 <!-- Primary Meta Tags -->  
 <title>Meta Tags — Preview, Edit and Generate</title>  
 <meta name="title" content="Meta Tags — Preview, Edit and Generate">  
@@ -48,7 +45,6 @@ https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
 
 Tags
-
 
 ```html
 <meta charset='utf-8'>
@@ -155,6 +151,10 @@ Android-only. See: [Manifest](https://developers.google.com/web/fundamentals/en
 
 
 
+References:
+- https://ogp.me/
+- https://devhints.io/html-meta
+- https://css-tricks.com/snippets/css/media-queries-for-standard-devices/
 
 
 
@@ -171,7 +171,6 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 https://www.npmjs.com/package/react-ga
 
 https://dev.to/markkdev/setting-up-google-analytics-with-react-context-in-next-js-23h1
-
 
 https://mariestarck.com/add-google-analytics-to-your-next-js-application-in-5-easy-steps/
 

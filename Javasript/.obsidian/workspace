@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Testing Frontend.md",
+            "file": "Clean Code and Design Patterns.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Testing Frontend.md",
+                "file": "Clean Code and Design Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "cdf429acd3566e22",
   "lastOpenFiles": [
+    "Arrays.md",
+    "Web Meta Tags.md",
     "Testing Frontend.md",
-    "routings.md",
     "string manipulation.md",
-    "Chapter 06 - React States.md",
-    "Chapter - 04 How React Works.md",
-    "Chapter - 03 Functional Programming.md",
-    "Chapter - 02 JS for React.md",
-    "Basics-02.md",
-    "Basic Syntax.md",
-    "Asynchronicty.md"
+    "Hooks.md",
+    "Google Analytics.md",
+    "Functions.md",
+    "ES6.md",
+    "async-await.md",
+    "Basic Syntax.md"
   ]
 }

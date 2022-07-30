@@ -1,4 +1,4 @@
-https://stackoverflow.com/questions/52067944/cannot-find-module-babel-core
+	https://stackoverflow.com/questions/52067944/cannot-find-module-babel-core
 https://playwright.dev/docs/selectors
 
 Create HTML report 

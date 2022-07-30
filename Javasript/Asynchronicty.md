@@ -538,3 +538,48 @@ https://www.programiz.com/javascript/callback
 https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke
 
 
+
+### Promise.all()
+In simple words, a promise is a placeholder for a value that's going to be available sometime later.
+
+Promises are useful when handling asynchoronous operations.
+
+`Promise.all()` is a built-in helper that accepts an array of promises (or generally an iterable). The function returns a promise:
+
+```js
+const allPromise = Promise.all([promise1, promise2, ...]); 
+```
+
+Then you can extract promises resolved values using a `then`-able syntax:
+
+```js
+allPromise.then(values => {
+
+values; // [valueOfPromise1, valueOfPromise2, ...]
+
+}).catch(error => {
+
+error; // rejectReason of any first rejected promise
+
+});
+```
+
+
+or `async/await` syntax:
+
+```js
+try {    const values = await allPromise;    
+	 values; // [valueOfPromise1, valueOfPromise2, ...]  
+} catch (error) {    
+	 error;  // rejectReason of any first rejected promise  
+	 }
+```
+
+If all promises are resolved successfully, then `allPromise` fulfills with an array containing fulfilled values of individual promises. The order of promises in the array does matter — you'll get the fulfilled values in that order.
+
+
+![](https://dmitripavlutin.com/b66e347cacfb42f44f03310131549921/all-fullfilled-9.svg)
+
+But if at least one promise rejects, then `allPromise` rejects right away (without waiting for other promises to resolve) with the same reason.
+
+![](https://dmitripavlutin.com/614cab5439654be910f89cc2422263f1/one-rejects-5.svg)
